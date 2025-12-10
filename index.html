@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Alip</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#projects">Proyek</a></li>
+                <li><a href="#skills">Keahlian</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Halo, Saya Sandy Aulia ALip Darmawan</h1>
+                <p class="hero-subtitle">Seorang Data & Machine Learning</p>
+                <button class="cta-button" onclick="document.getElementById('about').scrollIntoView()">Lihat Lebih Lanjut</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Tentang Saya</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Saya adalah seorang web developer dan designer dengan pengalaman lebih dari 3 tahun di industri digital. Saya passion dalam menciptakan website yang user-friendly dan responsive.</p>
+                    <p>Saya memiliki keahlian dalam berbagai bahasa pemrograman dan framework modern seperti HTML5, CSS3, JavaScript, React, dan banyak lagi.</p>
+                </div>
+                <img src="images/profile.jpg" alt="Foto Profil" class="profile-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Proyek Saya</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="images/project1.jpg" alt="Proyek 1">
+                    <h3>Proyek 1 - E-Commerce Website</h3>
+                    <p>Website e-commerce modern dengan fitur cart, checkout, dan payment gateway.</p>
+                    <a href="#" class="project-link">Lihat Detail →</a>
+                </div>
+                <div class="project-card">
+                    <img src="images/project2.jpg" alt="Proyek 2">
+                    <h3>Proyek 2 - Mobile App</h3>
+                    <p>Aplikasi mobile yang user-friendly dengan fitur real-time notification.</p>
+                    <a href="#" class="project-link">Lihat Detail →</a>
+                </div>
+                <div class="project-card">
+                    <img src="images/project3.jpg" alt="Proyek 3">
+                    <h3>Proyek 3 - Management System</h3>
+                    <p>Sistem manajemen bisnis lengkap dengan dashboard analytics.</p>
+                    <a href="#" class="project-link">Lihat Detail →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Keahlian</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                    </ul>
+                </div>
+                <div class="skill-item">
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Express</li>
+                        <li>MongoDB</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+                <div class="skill-item">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li>Git</li>
+                        <li>Docker</li>
+                        <li>VS Code</li>
+                        <li>Figma</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Hubungi Saya</h2>
+            <p>Saya terbuka untuk peluang baru dan kolaborasi. Silakan hubungi saya melalui form di bawah:</p>
+            <form class="contact-form" id="contactForm">
+                <input type="text" placeholder="Nama Anda" required>
+                <input type="email" placeholder="Email Anda" required>
+                <textarea placeholder="Pesan Anda" rows="5" required></textarea>
+                <button type="submit" class="submit-button">Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Portfolio Saya. Semua hak dilindungi.</p>
+            <div class="social-links">
+                <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
